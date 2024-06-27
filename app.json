@@ -1,4 +1,15 @@
 {
-  "name": "OnlyAcademy",
-  "displayName": "OnlyAcademy"
-}
+  "expo": {
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera",
+          "microphonePermission": "Allow $(PRODUCT_NAME) to access your microphone",
+          "recordAudioAndroid": true
+        }
+      ]
+    ],
+    "name": "OnlyAcademy",
+    "slug": "OnlyAcademy",
+    "version": "1.0.0",
